@@ -64,7 +64,7 @@ export const projects = [
           { type: 'image', src: '/images/beatnik-01.jpg' },
           { type: 'image', src: '/images/beatnik-02.jpg' },
           { type: 'image', src: '/images/beatnik-03.jpg' },
-          { type: 'image', src: '/images/beatnik-04.jpg' },
+          { type: 'image', src: '/images/beatnik-04.gif' },
         ],
       },
       {
