@@ -1,0 +1,48 @@
+.corner-nav__item {
+  position: fixed;
+  z-index: 20;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-ink);
+  padding: 28px 32px;
+  line-height: 1;
+  transition: opacity 0.15s ease;
+}
+
+.corner-nav__item:hover {
+  opacity: 0.5;
+}
+
+.corner-nav__item--active {
+  font-weight: 700;
+}
+
+.corner-nav__item--top-left {
+  top: 0;
+  left: 0;
+}
+
+.corner-nav__item--top-right {
+  top: 0;
+  right: 0;
+}
+
+.corner-nav__item--bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.corner-nav__item--bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 640px) {
+  .corner-nav__item {
+    padding: 16px 18px;
+    font-size: 10px;
+  }
+}
