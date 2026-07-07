@@ -77,11 +77,10 @@ export default function Profile() {
 
             <div className="profile__entry">
               <p className="profile__entry-title">JOVEM DIONISIO DISCO</p>
-              <p>Designer / Art Direction
+              <p>Designer
 
-                Created visual identity for the band's debut LP
-                Developed artistic direction and concept storytelling
-                Collaborated with multidisciplinary creative team</p>
+                Created visual for the band's debut LP
+                Developed artistic Collaborated with multidisciplinary creative team</p>
               <p>2024</p>
             </div>
 
