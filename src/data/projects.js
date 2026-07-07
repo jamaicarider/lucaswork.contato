@@ -1,33 +1,98 @@
-// Edite este arquivo para adicionar/remover/alterar projetos.
-// "image" deve apontar para um arquivo dentro de /public/images/
-// "number" é usado para gerar o rótulo "PROJECT 00X" nos cantos da tela.
+// Edite este arquivo para adicionar/remover/alterar projetos e mídias.
+// Tipos de item aceitos em "media": 'image' | 'video'
+// Um item de media pode ter comingSoon: true para virar um placeholder "em breve"
 
 export const projects = [
   {
-    slug: 'projeto-001',
+    slug: 'nabo',
     number: '001',
-    title: 'Nabō',
-    author: 'Design e direção de arte, Nabō your cool agency ',
-    subtitle: 'Descrição curta — Coordenadas: 00°00\'00.0"N 00°00\'00.0"W',
-    place: 'Curitiba, BRA, 2026',
-    image: '/images/project-001.jpg',
+    title: 'Nabō Agency',
+    comingSoon: false,
+    intro:
+      'Lead Designer na NABŌ — soluções criativas para clientes premium nos setores de lifestyle, wellness, gastronomia e hospitalidade.',
+    media: [
+      {
+        type: 'image',
+        src: '/images/nabo-basement-01.jpg',
+        caption: 'Basement Academia — identidade visual',
+      },
+      {
+        type: 'image',
+        src: '/images/nabo-mela-01.jpg',
+        caption: 'Mela Gelateria — campanha',
+      },
+      {
+        type: 'video',
+        src: '/images/nabo-casakio-reel.mp4',
+        caption: 'Casa Kio — reel institucional',
+      },
+      {
+        type: 'image',
+        src: '/images/nabo-sal-01.jpg',
+        caption: 'S.A.L Destilaria — packaging',
+      },
+      {
+        type: 'image',
+        src: '',
+        caption: 'Céu Bar',
+        comingSoon: true,
+      },
+    ],
   },
+
   {
-    slug: 'projeto-002',
+    slug: 'outros-projetos',
     number: '002',
-    title: 'Trama',
-    author: 'Direção Criativa , Trama',
-    subtitle: 'Liderança criativa no desenvolvimento de embalagens. Construção de identidades visuais alinhadas ao posicionamento de produto. Atuação do conceito à execução final ',
-    place: 'Curitiba, BRA, 2026',
-    image: '/images/project-002.jpg',
+    title: 'Outros Projetos',
+    comingSoon: false,
+    sections: [
+      {
+        name: 'TRAMA BR',
+        role: 'Creative Director / Product',
+        year: '2025',
+        media: [
+          { type: 'image', src: '/images/trama-01.jpg' },
+          { type: 'image', src: '/images/trama-02.jpg' },
+          { type: 'image', src: '/images/trama-03.jpg' },
+        ],
+      },
+      {
+        name: 'Beatnik Sons',
+        role: 'Designer — Toro Raincoats (produto, institucional, marketing)',
+        year: '2022 – 2023',
+        media: [
+          { type: 'image', src: '/images/beatnik-01.jpg' },
+          { type: 'image', src: '/images/beatnik-02.jpg' },
+          { type: 'image', src: '/images/beatnik-03.jpg' },
+          { type: 'image', src: '/images/beatnik-04.jpg' },
+        ],
+      },
+      {
+        name: 'WPN Agency',
+        role: "Junior Art Director — Kibon, Ben & Jerry's, Zorba",
+        year: '2022, SP - BRA',
+        media: [
+          { type: 'image', src: '/images/wpn-01.jpg' },
+          { type: 'image', src: '/images/wpn-02.jpg' },
+          { type: 'image', src: '/images/wpn-03.jpg' },
+        ],
+      },
+      {
+        name: 'Jovem Dionisio Disco',
+        role: 'Designer / Art Direction — identidade visual do LP de estreia',
+        year: '2024',
+        media: [
+          { type: 'image', src: '/images/dionisio-01.jpg' },
+          { type: 'image', src: '/images/dionisio-02.jpg' },
+        ],
+      },
+    ],
   },
+
   {
-    slug: 'projeto-003',
+    slug: 'artes-inspiracoes',
     number: '003',
-    title: 'Nome do Projeto 003',
-    author: 'Seu Nome, Escritório/Estúdio',
-    subtitle: 'Descrição curta — Coordenadas: 00°00\'00.0"N 00°00\'00.0"W',
-    place: 'Cidade, País, 2022',
-    image: '/images/project-003.jpg',
+    title: 'Artes & Inspirações',
+    comingSoon: true,
   },
 ]
