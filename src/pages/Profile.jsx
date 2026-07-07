@@ -26,7 +26,7 @@ export default function Profile() {
 
         <section className="profile__lists">
           <div className="profile__list">
-            <h2>Projetos Individuais</h2>
+            <h2>Individual Projects</h2>
 
             <div className="profile__entry">
               <p className="profile__entry-title profile__entry-title--upcoming">
@@ -50,7 +50,7 @@ export default function Profile() {
                  Key Clients: Basement Academia Mela Gelateria Casa Kio S.A.L Destilaria Céu Bar
               </p>
               <p>Curitiba, BRA</p>
-              <p><Present></Present></p>
+              
             </div>
 
 
@@ -73,7 +73,7 @@ export default function Profile() {
           </div>
 
           <div className="profile__list">
-            <h2>Projetos Coletivos</h2>
+            <h2>Collective Projects</h2>
 
             <div className="profile__entry">
               <p className="profile__entry-title">JOVEM DIONISIO DISCO</p>
