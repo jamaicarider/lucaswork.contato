@@ -10,48 +10,49 @@ export const projects = [
     comingSoon: false,
     intro:
       'Lead Designer na NABŌ — soluções criativas para clientes premium nos setores de lifestyle, wellness, gastronomia e hospitalidade.',
-    media: [
+    sections: [
       {
-        type: 'image',
-        src: '/images/nabo-basement-01.jpg',
-        caption: 'Basement Academia — identidade visual',
+        name: 'NABŌ Campanha',
+        media: [
+          {
+            type: 'video',
+            src: '/images/nabo-campanha.mp4',
+          },
+        ],
       },
       {
-        type: 'image',
-        src: '/images/nabo-mela-01.jpg',
-        caption: 'Mela Gelateria — campanha',
+        name: 'Basement Academia',
+        role: 'Identidade visual',
+        media: [
+          { type: 'image', src: '/images/nabo-basement-01.jpg' },
+          { type: 'image', src: '/images/nabo-basement-02.jpg' },
+        ],
       },
       {
-        type: 'image',
-        src: '/images/nabo-sal-01.jpg',
-        caption: 'S.A.L Destilaria — site',
+        name: 'Mela Gelateria',
+        role: 'Campanha',
+        media: [
+          { type: 'image', src: '/images/nabo-mela-01.jpg' },
+          { type: 'image', src: '/images/nabo-mela-02.jpg' },
+        ],
       },
       {
-        type: 'image',
-        src: '/images/nabo-sal-02.jpg',
-        caption: 'S.A.L Destilaria — destilados',
+        name: 'S.A.L Destilaria',
+        role: 'Site, produto e campanha',
+        media: [
+          { type: 'image', src: '/images/nabo-sal-01.jpg' },
+          { type: 'image', src: '/images/nabo-sal-02.jpg' },
+          { type: 'image', src: '/images/nabo-sal-03.jpg' },
+          { type: 'video', src: '/images/nabo-sal-video.mp4' },
+        ],
       },
       {
-        type: 'image',
-        src: '/images/nabo-sal-03.jpg',
-        caption: 'S.A.L Destilaria — campanha',
-      },
-      {
-        type: 'video',
-        src: '/images/nabo-sal-video.mp4',
-        caption: 'S.A.L Destilaria — reel',
-      },
-      {
-        type: 'image',
-        src: '',
-        caption: 'Casa Kio',
-        comingSoon: true,
-      },
-      {
-        type: 'image',
-        src: '',
-        caption: 'Céu Bar',
-        comingSoon: true,
+        name: 'Em breve',
+        role: 'Novos projetos em desenvolvimento',
+        media: [
+          { type: 'image', src: '', caption: 'Casa Kio', comingSoon: true },
+          { type: 'image', src: '', caption: 'Céu Bar', comingSoon: true },
+        ],
       },
     ],
   },
