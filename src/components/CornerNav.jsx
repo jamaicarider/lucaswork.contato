@@ -6,7 +6,7 @@ import './CornerNav.css'
 // canto superior esquerdo -> Perfil
 // canto superior direito, inferior esquerdo, inferior direito -> projetos, em ordem
 const corners = [
-  { label: 'UNTITLED (PROFILE)', to: '/', position: 'top-left' },
+  { label: 'UNTITLED (LUCAS)', to: '/', position: 'top-left' },
   ...projects.slice(0, 3).map((p, i) => ({
     label: `PROJECT ${p.number}`,
     to: `/${p.slug}`,

@@ -89,8 +89,7 @@ export const projects = [
         year: '2022, SP - BRA',
         media: [
           { type: 'image', src: '/images/wpn-01.jpg' },
-          { type: 'image', src: '/images/wpn-02.jpg' },
-          { type: 'image', src: '/images/wpn-03.jpg' },
+          { type: 'video', src: '/images/wpn-02.mp4' },
         ],
       },
       {
@@ -100,6 +99,8 @@ export const projects = [
         media: [
           { type: 'image', src: '/images/dionisio-01.jpg' },
           { type: 'image', src: '/images/dionisio-02.jpg' },
+          { type: 'image', src: '/images/dionisio-03.jpg' },
+          { type: 'image', src: '/images/dionisio-04.jpg' },
         ],
       },
     ],

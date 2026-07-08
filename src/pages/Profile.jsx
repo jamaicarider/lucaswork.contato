@@ -9,7 +9,7 @@ export default function Profile() {
 
       <div className="profile__content">
         <header className="profile__header">
-          <p>Untitled (Profile)</p>
+          <p>Untitled (lucas)</p>
           <p>
             <a href="mailto:lucaswork.contato@gmail.com">lucaswork.contato@gmail.com</a>
           </p>
