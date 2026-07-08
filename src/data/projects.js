@@ -22,14 +22,30 @@ export const projects = [
         caption: 'Mela Gelateria — campanha',
       },
       {
-        type: 'video',
-        src: '/images/nabo-casakio-reel.mp4',
-        caption: 'Casa Kio — reel institucional',
+        type: 'image',
+        src: '/images/nabo-sal-01.jpg',
+        caption: 'S.A.L Destilaria — site',
       },
       {
         type: 'image',
-        src: '/images/nabo-sal-01.jpg',
-        caption: 'S.A.L Destilaria — packaging',
+        src: '/images/nabo-sal-02.jpg',
+        caption: 'S.A.L Destilaria — destilados',
+      },
+      {
+        type: 'image',
+        src: '/images/nabo-sal-03.jpg',
+        caption: 'S.A.L Destilaria — campanha',
+      },
+      {
+        type: 'video',
+        src: '/images/nabo-sal-video.mp4',
+        caption: 'S.A.L Destilaria — reel',
+      },
+      {
+        type: 'image',
+        src: '',
+        caption: 'Casa Kio',
+        comingSoon: true,
       },
       {
         type: 'image',
@@ -61,7 +77,6 @@ export const projects = [
         role: 'Designer — Toro Raincoats (produto, institucional, marketing)',
         year: '2022 – 2023',
         media: [
-          { type: 'image', src: '/images/beatnik-01.jpg' },
           { type: 'image', src: '/images/beatnik-02.jpg' },
           { type: 'image', src: '/images/beatnik-03.jpg' },
           { type: 'image', src: '/images/beatnik-04.gif' },
