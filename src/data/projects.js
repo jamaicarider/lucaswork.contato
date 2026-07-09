@@ -22,7 +22,7 @@ export const projects = [
       },
       {
         name: 'Basement Academia',
-        role: 'Identidade visual',
+        role: '',
         media: [
           { type: 'image', src: '/images/nabo-basement-01.jpg' },
           { type: 'image', src: '/images/nabo-basement-02.jpg' },
@@ -30,7 +30,7 @@ export const projects = [
       },
       {
         name: 'Mela Gelateria',
-        role: 'Campanha',
+        role: '',
         media: [
           { type: 'image', src: '/images/nabo-mela-01.jpg' },
           { type: 'image', src: '/images/nabo-mela-02.jpg' },
@@ -38,7 +38,7 @@ export const projects = [
       },
       {
         name: 'S.A.L Destilaria',
-        role: 'Site, produto e campanha',
+        role: '',
         media: [
           { type: 'image', src: '/images/nabo-sal-01.jpg' },
           { type: 'image', src: '/images/nabo-sal-02.jpg' },
@@ -85,7 +85,7 @@ export const projects = [
       },
       {
         name: 'WPN Agency',
-        role: "Junior Art Director — Kibon, Ben & Jerry's, Zorba",
+        role: "Junior Art Director —  Ben & Jerry's e GELARTIER",
         year: '2022, SP - BRA',
         media: [
           { type: 'image', src: '/images/wpn-01.jpg' },
@@ -99,7 +99,6 @@ export const projects = [
         media: [
           { type: 'image', src: '/images/dionisio-01.jpg' },
           { type: 'image', src: '/images/dionisio-02.jpg' },
-          { type: 'image', src: '/images/dionisio-03.jpg' },
           { type: 'image', src: '/images/dionisio-04.jpg' },
         ],
       },

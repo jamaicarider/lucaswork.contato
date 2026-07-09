@@ -50,6 +50,7 @@ export default function Profile() {
                  Key Clients: Basement Academia Mela Gelateria Casa Kio S.A.L Destilaria Céu Bar
               </p>
               <p>Curitiba, BRA</p>
+              <p>Present</p>
               
             </div>
 
@@ -88,7 +89,7 @@ export default function Profile() {
               <p className="profile__entry-title">WPN Agency</p>
               <p>Junior Art Director
 
-              Worked with global brands including Kibon, Ben & Jerry's, and Zorba
+              Worked with global brands including Ben & Jerry's and Gelartier
               Created monthly campaigns and digital assets
               Strategic participation in meetings and performance analysis</p>
               <p>2022 SP - BRA</p>
